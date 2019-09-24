@@ -1,51 +1,77 @@
 <!DOCTYPE html>
 <html lang="en x">
 
-     <head>
-          <title>
-               My Portfoilio website
-          </title>
-          <meta charset="utf-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width,intial-scale=1, shrink-to-fit=no">
-          <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-          <script src="bootstrap/jquery.min.js"></script>
-          <script src="bootstrap/popper.min.js"></script>
-          <script src="bootstrap/bootstrap.min.js"></script>
-          <style>
-               .text {
-                    text-align: center;
-               }
+    <head>
+        <title>
+            My Portfoilio website
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA- Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <script src="bootstrap/jquery.min.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
+        <style>
+            p {
+                text-align: center;
+                background-color: lightblue;
+            }
 
-               .logo {}
-          </style>
+            .col-padding {
+                text-align: center;
+                border-radius: 5px;
+                padding: 0px;
+                border: 2px solid black;
 
-          <body>
-               <div class="container">
-                    <div class="row">
-                         <div class="col-4 text">
-                              <img class="logo" src="static/Skills/C_Language_Icon/css.png" alt="C"><br>
-                              <br>
-                              <P> C </P>
 
-                              <p> C is a programming language </p>
-                         </div>
-                         <div class="col-4 text">
-                              <img class="logo" src=" static/Skills/HTML Icon/html(1).png" alt="HTML"><br>
-                              <br>
-                              <p> HTML </p>
+            }
 
-                              <P> Hyper Text Markup Language<br>(HTML) is a mark up<br>language for creating a<br>webpage</P>
-                         </div>
-                         <div class="col-4 text">
-                              <img class="logo" src="static/Skills/CSS_Icon/css(1).png" alt="CSS"><br>
-                              <br>
-                              <p> CSS </p>
+            li {
+                margin-top: 80px;
+            }
 
-                              <P> CSS stands for Cascading<br> Style Sheets.its purpose is<br> to style HTML document.</P>
+            img {
+                margin-top: -32px;
+                border: 2px solid GOLD;
+                border-radius: 8px;
+            }
 
-                         </div>
+            .row-padding {}
+
+            ul {
+                list-style-type: none;
+            }
+
+            .bhanu {
+                margin-top: 20px;
+                font-size: 40px;
+            }
+
+            .font {
+                overflow: auto;
+            }
+        </style>
+        <div class="container">
+            <ul class="row row padding">
+                <li class="col-4 col-padding">
+                    <img src="static/Skills/C_Language_Icon/css.png" alt="c programming">
+                    <p class="bhanu">C</p>
+                    <p>C is a programming language</p>
+                </li>
+                <li class="col-4 col-padding">
+                    <img src="static/Skills/HTML Icon/html(1).png" alt="html">
+                    <div class="font">
+                        <p class="bhanu"> HTML</p>
+                        <P>Hyper Text Markup Language(HTML) is a markup language for creating a webpage</P>
                     </div>
-               </div>
-
-          </body>
+                </li>
+                <li class="col-4 col-padding">
+                    <img src="static/Skills/CSS_Icon/css(1).png" alt="css">
+                    <div class="font">
+                        <p class="bhanu"> Cascading Style Sheets</p>
+                        <P> CSS stands for Cascading Style Sheets.Its purpose is to style HTML documents</P>
+                    </div>
+                </li>
+            </ul>
+        </div>
