@@ -5,10 +5,16 @@
         <title>
             My Portfolio
         </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA- Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <script src="bootstrap/jquery.min.js"></script>
+        <script src="bootstrap/popper.min.js"></script>
+        <script src="bootstrap/bootstrap.min.js"></script>
         <style>
             body {
-                background-color: black;
-                color: white;
+                color: black;
             }
 
             h1 {
@@ -33,31 +39,45 @@
             h3 {
                 color: gold;
             }
+
+            img {
+                text-align: center;
+            }
         </style>
     </head>
 
     <body>
-        <h1> P.Venk@t R@m@n@</h1>
-        <h2> About Me</h2>
-        <p>
+        <h1 class="text"> P.Venk@t R@m@n@</h1>
+        <h2 class="text"> About Me</h2>
+        <p class="text">
             My name is Venkat Ramana.I am flexible and adaptable to any environment and have good communication skills.I want to become an embedded engineer. I want to explore my skills for the growth of organisation and i am enthusiastic to learn new technologies.
         </p>
         <h4>Skills</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-4"><img src="static/Skills/C_Language_Icon/css.png">
+                    <p>C
+                    </p>
+                </div>
+                <div class="col-4"><img src="static/Skills/HTML Icon/html(1).png">
+                    <p>HTML
+                    </p>
+                </div>
+                <div class="col-4"><img src="static/Skills/CSS_Icon/css(1).png">
+                    <p>CSS
+                    </p>
+                </div>
+            </div>
+        </div>
         <ul>
-            <li> C programming
-                <img src="static/Skills/C_Language_Icon/css.png" alt="C Language">
-            </li>
-            <li> Managerial Skills</li>
-            <li>Basics Of Computer Network</li>
-            <li>Html
-                <img src="static/Skills/HTML Icon/html(1).png" alt="Html" </li>
-                <li>CSS</li>
+            <li class="text"> Managerial Skills</li>
+            <li class="text">Basics Of Computer Network</li>
         </ul>
-        <h5>Hobbies</h5>
+        <h5 class="text">Hobbies</h5>
         <ol>
-            <li>Reading Books</li>
-            <li>Playing Tricky Games</li>
-            <li>Listening Music</li>
+            <li class="text">Reading Books</li>
+            <li class="text">Playing Tricky Games</li>
+            <li class="text">Listening Music</li>
 
         </ol>
         <h3>Education Qualification</h3>
