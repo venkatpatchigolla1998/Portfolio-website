@@ -34,10 +34,11 @@
         width: 350px;
         height: 350px;
         object-fit: contain;
+        width: 100%;
       }
 
       .v {
-        margin-top: 100px;
+        margin-top: 10px;
       }
 
       .g {
@@ -51,15 +52,30 @@
       }
 
       .y {
-        height: 40px;
-        width: 70px;
-        margin-left: 400px;
+        height: 100px;
+        width: 200px;
+        object-fit: contain;
+        margin-left: 250px;
       }
 
       .y1 {
-        height: 40px;
-        width: 70px;
-        margin-left: 0px;
+
+        height: 100px;
+        width: 200px;
+        object-fit: contain;
+        margin-right: 350px;
+      }
+
+      .f1 {
+        height: 149px;
+        width: 300px;
+        object-fit: contain;
+      }
+
+      .f2 {
+        height: 150px;
+        width: 300px;
+        object-fit: contain;
       }
 
       h5 {
@@ -87,6 +103,7 @@
 
       .j {
         margin-top: 20px;
+        border-left: 1px solid white;
       }
 
       .t {
@@ -104,214 +121,311 @@
         border-left: 5px;
       }
 
-      .w {
-        border-left: 3px soild white;
+      .w {}
+
+      div {
+        text-align: center;
+      }
+
+      col-1 {
+        border: 1px solid white;
+      }
+
+      .z {
+        background-color: orange;
+        height: 200px;
+        width: 30px;
       }
     </style>
   </head>
 
   <body>
+
+
     <div class="container">
-      <div class="row d-sm-flex d-md-none">
-        <div class="col-12 v">
+      <div class="row d-lg-flex d-none">
+        <div class="col-12">
           <div class="row">
-            <div class="col-3">
-              <img src="assets/logo-gmail.png"><span>Gmail</span>
+            <div class="col-3"><img src="assets/logo-gmail.png">
+              <span>Gmail</span>
             </div>
-            <div class="col-3">
-              <p class="j"><button type "button" class="or">get gmail</button></p>
+            <div class="col-3"></div>
+            <div class="col-2 h">
+              <p>For Work</p>
+            </div>
+            <div class="col-2 h">
+              <p>Sign in</p>
+            </div>
+            <div class="col-2 h"><button type "button" class="or">Get Gmail</button></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-6 v">
+              <h4>Get more done with Gmail</h4>
+              <br>
+              <p class="o"> Now more,smarter and easier to use-helping you save time and do do more with your inbox</p>
+              <button type "button" class="or o">Create an account</button>
+            </div>
+            <div class="col-6">
+              <img class="f" src="assets/landing-page-image-desktop.png">
             </div>
           </div>
+        </div>
+        <div class="col-12">
+          <h5>Experience Gmail on any device</h5>
+          <p class="o">The ease & simplicity of Gmail,wherever you are</p>
+        </div>
+        <div class="col-12">
           <div class="row">
-            <div class="col-3">
-              <p class="o">For Work</p>
+            <div class="col-12">
+              <img class="f1" src="assets/google-playstore.png">
+              <img class="f2" src="assets/app-store.png">
             </div>
-            <div class="col-3">
-              <p class="o">Sign in</p>
-            </div>
-          </div>
-          <div class="col-6 v g">
-            <p class="o">Get more done with Gmail</p>
-            <div class="col-12 t g">
-              <p class="o">Now more secure,smarter and easier to use-helping you save time and more with your inbox</p>
-            </div>
-            <div class="col-6 v g">
-              <p class="j"><img class="f" src="assets/landing-page-image-mobile.png"></p>
-              <p class="j"> <button type "button" class="or">Get Gmail</button></p>
-            </div>
-          </div>
-          <div class="col-6 v">
-            <p class="o">Experience Gmail on any device</p>
-          </div>
-          <div class="col-6 t">
-            <p class="o">The ease & simplicity of Gmail,wherever you are</p>
-          </div>
-          <div class="col-6 d ">
-            <p class="j"><img src="assets/google-playstore.png ">
-              <img src="assets/app-store.png "></p>
-          </div>
-          <div class="col-6 ">
-            <p class="i"> <img class="f " src="assets/experience-image-mobile-desktop.png "></div>
-          </p>
-          <div class="col-6 g">
-            <p class="o ">Stay Organised instantly</p>
-            <div class="col-12 t g">
-              <p class="o ">See what's new at a glance and decide what you want to read and respond to.</p>
-            </div>
-            <div class="col-6 g">
-              <p class="j"><img class="f" src="assets/stay-organised-instantly-desktop.png "></P>
-            </div>
-          </div>
-          <div class="col-6 v g">
-            <p class="o">Never drop the ball</p>
-            <div class="col-12 t g ">
-              <p class="o ">Get nudges that remind you to follow up and respond to messages ,so that nothing slips through the circle</p>
-            </div>
-            <div class="col-6 g">
-              <p class="j"><img class="f" src="assets/never-drop-the-ball-mobile.png "></P>
-            </div>
-          </div>
-          <div class="col-6 v ">
-            <p class="o ">Take action right from the inbox</p>
-          </div>
-          <div class="col-6 t ">
-            <p class="o "> View attachements,RVSP to events,snooze messagees and more with out opening any emails</p>
-          </div>
-          <div class="col-6 ">
-            <p class="j"><img class="f " src="assets/take-action-mobile.png "></P>
-          </div>
-          <div class="col-6 v g">
-            <p class="o ">Aviod suspicious emails</p>
-            <div class="col-12 t g">
-              <p class="o "> Gmail blocks 99.9% of dangerous emails before they reach you.if we think something seems phish-y-you'll get a warning</p>
-            </div>
-            <div class="col-12 v g">
-              <p class="j"><img class="f " src="assets/avoid-suspicious-emails-mobile.png "></p>
-            </div>
-          </div>
-          <div class="col-6 v ">
-            <p class="j"> <img src="assets/logo-gmail.png "></P>
-          </div>
-          <div class="col-6 v ">
-            <p class="o">Get started with Gmail</p>
-          </div>
-          <div class="col-6 ">
-            <p class="j"> <button type "button" class="or">Get Gmail</button></P>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- <div class="container">-->
-    <div class="row">
-      <div class="col-12">
-        <div class="row d-lg-flex d-none">
-          <div class="col-3"><img src="assets/logo-gmail.png">
-            <span>Gmail</span>
-          </div>
-          <div class="col-3"></div>
-          <div class="col-2 h">
-            <p>For Work</p>
-          </div>
-          <div class="col-2 h">
-            <p>Sign in</p>
-          </div>
-          <div class="col-2 h"><button type "button" class="or">Get Gmail</button></div>
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="row g">
-          <div class="col-6 v">
-            <h4>Get more done with Gmail</h4>
-            <br>
-            <p class="o"> Now more,smarter and easier to use-helping you save time and do do more with your inbox</p>
-            <button type "button" class="or o">Create an account</button>
-          </div>
-          <div class="col-6">
-            <img class="f" src="assets/landing-page-image-desktop.png">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 i">
+              <img class="i" src="assets/experience-image-mobile-desktop.png">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12">
-        <h5>Experience Gmail on any device</h5>
-        <p class="o">The ease & simplicity of Gmail,wherever you are</p>
-      </div>
-      <div class="col-12">
-        <div class="row">
-          <div class="col-12">
-            <img class="y" src="assets/google-playstore.png">
-            <img class="y1" src="assets/app-store.png">
+        <div class="col-12">
+          <div class="row g j">
+            <div class="col-6 n">
+              <h5>stay organised instantly</h5>
+              <p class="o">see what's new at a glance and decide what you for want to read and respond</p>
+              <img class="t" src="assets/stay-organised-instantly-desktop.png">
+            </div>
+            <div class="col-6 w">
+              <h5>Never drop the bell</h5>
+              <p class="o">Get nudges that remind you to follow up respond to messages,so that nothing slips through the cracks</p>
+              <img class="t" src="assets/never-drop-the-ball-desktop.png">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12">
-        <div class="row">
-          <div class="col-12 i">
-            <img class="i" src="assets/experience-image-mobile-desktop.png">
+        <div class="col-12">
+          <div class="row j">
+            <div class="col-6 b ">
+              <h5>Take action right from the inbox</h5>
+              <p class="o">view attachements,rvsp to events,snooze messages and more with out opening any emails</p>
+            </div>
+            <div class="col-6">
+              <img class="t" src="assets/take-action-desktop.png">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12">
-        <div class="row g j">
-          <div class="col-6 n">
-            <h5>stay organised instantly</h5>
-            <p class="o">see what's new at a glance and decide what you for want to read and respond</p>
-            <img class="t" src="assets/stay-organised-instantly-desktop.png">
-          </div>
-          <div class="col-6 w">
-            <h5>Never drop the bell</h5>
-            <p class="o">Get nudges that remind you to follow up respond to messages,so that nothing slips through the cracks</p>
-            <img class="t" src="assets/never-drop-the-ball-desktop.png">
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-6">
+              <img class="t" src="assets/avoid-suspicious-emails-desktop.png">
+            </div>
+            <div class="col-6 b">
+              <h5>Avoid suspicious emails</h5>
+              <p class="o">Gmail blocks 99.9% of dangerous emails before they reach you.if we think something seems phish-y,you"ll get a warning.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12">
-        <div class="row j">
-          <div class="col-6 b ">
-            <h5>Take action right from the inbox</h5>
-            <p class="o">view attachements,rvsp to events,snooze messages and more with out opening any emails</p>
-          </div>
-          <div class="col-6">
-            <img class="t" src="assets/take-action-desktop.png">
-          </div>
+        <div class="col-12 l j">
+          <img src="assets/logo-gmail.png">
         </div>
-      </div>
-      <div class="col-12">
-        <div class="row g">
-          <div class="col-6">
-            <img class="t" src="assets/avoid-suspicious-emails-desktop.png">
-          </div>
-          <div class="col-6 b">
-            <h5>Avoid suspicious emails</h5>
-            <p class="o">Gmail blocks 99.9% of dangerous emails before they reach you.if we think something seems phish-y,you"ll get a warning.</p>
-          </div>
+        <div class="col-12 l">
+          <h5>Get started with Gmail</h5>
         </div>
-      </div>
-      <div class="col-12 l j">
-        <img src="assets/logo-gmail.png">
-      </div>
-      <div class="col-12 l">
-        <h5>Get started with Gmail</h5>
-      </div>
-      <div class="col-12 l">
-        <button type "button" class="or"><p class="o">Create an account</p>
+        <div class="col-12 l">
+          <button type "button" class="or"><p class="o">Create an account</p></button>
         </div>
         <div class="col-12">
           <div class="row g">
             <div class="col-2"></div>
-              <div class="col-1">Google</div>
-              <div class="col-1"><p class="o">Privacy</p></div>
-              <div class="col-1"><p class="o">Terms</p></div>    
-              <div class="col-1"><p class="o">About Google</p></div>
-              <div class="col-1"><p class="o">Google Products</p></div>
-              <div class="col-1"><p class="o">Our policy</p></div>
-              <div class="col-1"><img class="r" src="assets/question-mark.png"><span class="o">Help</span></div>
-              <div class="col-2"><p class="o">English(India)</p></div>
-              </div>
+            <div class="col-1">Google</div>
+            <div class="col-1">
+              <p class="o">Privacy</p>
+            </div>
+            <div class="col-1">
+              <p class="o">Terms</p>
+            </div>
+            <div class="col-1">
+              <p class="o">About Google</p>
+            </div>
+            <div class="col-1">
+              <p class="o">Google Products</p>
+            </div>
+            <div class="col-1">
+              <p class="o">Our policy</p>
+            </div>
+            <div class="col-1"><img class="r" src="assets/question-mark.png"><span class="o">Help</span></div>
+            <div class="col-2">
+              <p class="o">English(India)</p>
+            </div>
+          </div>
         </div>
-        
-        
-        
       </div>
+
+
+      <div class="row d-flex d-sm-flex d-md-none">
+        <div class="col-12 ">
+          <div class="row ">
+            <div class="col-6">
+              <img src="assets/logo-gmail.png"><span>Gmail</span>
+            </div>
+            <div class="col-6">
+              <button type "button" class="or">Get Gmail</button></p>
+            </div>
+            <div class="col-6">
+              <p class="o">For Work</p>
+            </div>
+            <div class="col-6">
+              <p class="o">Sign in</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-12 l">
+              <h4>Get more done with Gmail</h4>
+            </div>
+            <div class="col-12 l">
+              <p class="o">Now more secure,smarter and easier to use-helping you save time</p>
+            </div>
+            <div class="col-12 l">
+              <p class="o">and do more with your inbox</p>
+            </div>
+            <div class="col-12">
+              <div><img class="f" src="assets/landing-page-image-mobile.png"></div>
+            </div>
+            <div class="col-12">
+              <div><button type "button" class="or">Get Gmail</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <h5>Experience Gmail on any device </h5>
+        </div>
+        <div class="col-12">
+          <p class="o">The ease & simplicity of Gmail,wherever you are. </p>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-6"><img class="y" src="assets/google-playstore.png"></div>
+            <div class="col-6"><img class="y1" src="assets/app-store.png"></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div><img class="f" src="assets/experience-image-mobile-desktop.png"></div>
+        </div>
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-12">
+              <h5>Stay organised instantly</h5>
+            </div>
+            <div class="col-12">
+              <p class="o">See what's new at glance and decide what you want to read and respond to </p>
+            </div>
+            <div class="col-12">
+              <div><img class="f" src="assets/stay-organised-instantly-mobile.png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-12">
+              <h5>Never drop the ball</h5>
+            </div>
+            <div class="col-12">
+              <p class="o">Get nudges that remind you to follow up and respond to messages,so that nothing slips through the circle</p>
+            </div>
+            <div class="col-12">
+              <div><img class="f" src="assets/never-drop-the-ball-mobile.png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-12">
+              <h5>Take action right from the </h5>
+            </div>
+            <div class="col-12">
+              <h5>inbox</h5>
+            </div>
+            <div class="col-12">
+              <p class="o">View attachements,RVSP to events,snooze messages and more without opening any emails.</p>
+            </div>
+            <div class="col-12">
+              <div><img class="f" src="assets/take-action-mobile.png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12">
+              <h5>Avoid suspicious emails</h5>
+            </div>
+            <div class="col-12">
+              <p class="o">Gmail blocks 99.9% of dangerous emails before they reach you.If we think something seems phis-y,you"ll get a warning</p>
+            </div>
+            <div class="col-12">
+              <div><img class="f" src="assets/avoid-suspicious-emails-mobile.png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 v">
+              <div><img src="assets/logo-gmail.png"></div>
+            </div>
+            <div class="col-12 v">
+              <h4>Get started with Gmail</h4>
+            </div>
+            <div class="col-12 v">
+              <div><button class="button" class="or">Get Gmail</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row g">
+            <div class="col-2">
+              <p>Google</p>
+            </div>
+            <div class="col-12">
+              <div class="row g">
+                <div class="col-2">
+                  <p class="o">Privacy</p>
+                </div>
+                <div class="col-2">
+                  <p class="o">Terms</p>
+                </div>
+                <div class="col-2">
+                  <p class="o">About Google</p>
+                </div>
+                <div class="col-2">
+                  <p class="o">Google Products</p>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-2">
+                      <p class="o">Our policy</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <img class="r" src="assets/question-mark.png"><span class="o">Help</span>
+                </div>
+                <div class="col-2">
+                  <p class="o">English(India)</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
     </div>
 
   </body>
