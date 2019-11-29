@@ -25,10 +25,6 @@
                 border: 2px solid blue;
             }
 
-            .o {
-                margin-top: 30px;
-            }
-
             .p {
                 border-bottom: 2px solid blue;
             }
@@ -45,9 +41,7 @@
 
             .background_white {
                 background-color: whitesmoke;
-                padding-right: 10px;
                 margin: 35px;
-                margin-bottom: 30px;
 
             }
 
@@ -78,12 +72,6 @@
                 padding-bottom: 35px;
             }
 
-            .photo {
-                border-radius: 200px;
-                width: 100%;
-
-
-            }
 
             .background_grey {
                 background-color: lightgrey;
@@ -94,10 +82,9 @@
             }
 
             .background_lightblue {
-                background-color: lightblue;
-                padding-top: 50px;
-                color: white;
-                background-image: url('static/image_16.jpeg');
+                background-image: url("static/image_16.jpeg");
+                padding: 30px;
+                background-size: 100% 100%;
             }
 
             .color_violet {
@@ -106,13 +93,13 @@
             }
 
             .image {
-                height: 20px;
-                width: 20px;
+
+                width: 25%;
             }
 
             .background_lightblue1 {
                 background-color: lightblue;
-                padding: 50px;
+                padding: 20px;
             }
 
             .margin-top {
@@ -127,21 +114,30 @@
                 font-size: 20px;
             }
 
-            .content1 {
-                margin-top: 25px;
+            .text-align {
+                text-align: center;
+            }
+
+            .photo_border {
+                width: 100%;
+                border-radius: 200px;
+            }
+
+            .font-family {
+                font-family: italic;
+                text-align: center;
+                color: rgb(0, 0, 0);
             }
         </style>
     </head>
 
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p>Venkat Ramana/9581275742</p>
-                </div>
-                <div class="background_lightblue col-12">
-                    <div class="content1 col-8">I'm the designer with the ability to solve problems and makes everyone's life better.</div>
-                    <div class="col-4"><img class="photo" src="static/IMG-20191127-WA0004.jpg"></div>
+            <div class="row background_lightblue">
+                <div class="col-12"></div>
+                <div class="col-8 margin-top">I am flexible and can adapt to any type of environment.I am enthusiastic to learn new things and new technologies.</div>
+                <div class="col-4"><img class="photo_border" src="static/IMG-20191127-WA0004.jpg">
+                    <p class="font-family">P.Venkat Ramana</p>
                 </div>
             </div>
             <div class="row">
@@ -149,7 +145,8 @@
                     <h3 class="o">About <span class="p">Me</span></h3>
                 </div>
                 <div class="col-12">
-                    <p>I am flexible and adaptable to any type of environment and Enthusiastic to learn new things.I am good listener.<br> you will never find me in head to toe designer</p>
+                    <p>I am flexible and adaptable to any type of environment and Enthusiastic to learn new things.I am good listener.I am always intrested to learn new things My enthusiasm to know every thing makes me to think what is happening inside every
+                        eletronic equipment and how it is designed</p>
                 </div>
                 <div class="col-4">
                     <button type "button" class="or">Contact Me</button>
@@ -160,7 +157,7 @@
             </div>
             <br>
             <br>
-            <div class="row">
+            <div class="row d-flex d-md-none d-lg-none d-xl-none">
                 <div class="col-12">
                     <H2>Skills</h2>
                 </div>
@@ -171,23 +168,34 @@
                 <div class="col-12 margin-top"><img src="static/Skills/HTML Icon/html(1).png"> &nbsp <span class="font-size">HTML</span>
                 </div>
             </div>
+            <div class="row d-none d-md-flex">
+                <div class="col-12">
+                    <H2>Skills</h2>
+                </div>
+                <div class="col-4"><img src="static/Skills/C_Language_Icon/css.png"> &nbsp <span class="font-size"> C Programming </span>
+                </div>
+                <div class="col-4"><img src="static/Skills/CSS_Icon/css(1).png"> &nbsp <span class="font-size"> CSS </span>
+                </div>
+                <div class="col-4"><img src="static/Skills/HTML Icon/html(1).png"> &nbsp <span class="font-size">HTML</span>
+                </div>
+            </div>
             <div class="row background_color u margin-top">
                 <div class="col-12">
                     <h2>My <span class="p"> Projects</span></h2>
                 </div>
                 <div class="col-11 background_white">
-                    <h5>Smart door opener using PIR sensor</h5>
-                    <p>This project works with pir sensor interfacing with stepper motor.The full form of pir sesnsor is passive infrared sensor.The function of it is sense the human motion infront of it.
+                    <h5>Smart door opener using <strong>PIR sensor</strong></h5>
+                    <p>This project works with pir sensor interfacing with stepper motor.The full form of pir sesnsor is <strong>Passive Infra Red Sensor</strong>.The function of it is sense the human motion infront of it.
                     </p>
                 </div>
                 <br>
                 <br>
                 <div class="col-11 background_white margin_bottom">
                     <h5>An Effecient Utillisation of DES Algorithm</h5>
-                    <p>The DES is an acroynm of Data Encryption Standard which is a to store our information. Intially the input bit size is 32 bit and we have modified to maximum input size of 64-bit.</p>
+                    <p>The DES is an acroynm of <strong>Data Encryption Standard</strong> which is a to store our information. Intially the input bit size is 32 bit and we have modified to maximum input size of 64-bit.</p>
                 </div>
             </div>
-            <div class="row margin_bottom margin_right">
+            <div class="row margin_bottom margin_right d-flex d-md-none">
                 <div class="col-12">
                     <h2>My<span class="p">Education</span></h2>
                 </div>
@@ -223,75 +231,182 @@
                     <p>Sri Prakash Vidyaneketan E.M school Tuni</p>
                 </div>
             </div>
-            <div class="row background_color">
-                <div class="col-12 margin-top">
-                    <h4>My <span class="p">Hobbies</span></h4>
+            <div class="row margin_bottom margin_right d-none d-md-flex">
+                <div class="col-12">
+                    <h2>My<span class="p">Education</span></h2>
                 </div>
                 <br>
+                <br>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="box_model col-4">
+                            <p>2016-2019</p>
+                            <h4>Bachelor's</h4>
+                            <h4>Degree</h4>
+                        </div>
+                        <div class="col-6 margin-top">
+                            <h6>Electronics and communication Engineering</h6>
+                            <p>Aditya Engineering College Surampalem</p>
+                            <h4>64%</h4>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-12 margin-top">
-                    <img class="image" src="static/Hobbies/cricket-player/cricket-player.png">&nbsp<span>Cricket</span>
+                    <div class="row">
+                        <div class="box_model1 col-4">
+                            <p>2013-2016</p>
+                            <h4>Polytechnic</h4>
+                        </div>
+                        <div class="col-6 margin-top">
+                            <h6>Electronics and communication Engineering</h6>
+                            <p>Sir C R Reddy Polytechnic College Elluru</p>
+                            <h4>89.7%</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 margin-top">
+                    <div class="row">
+                        <div class="box_model1 col-4">
+                            <p>2012-2013</p>
+                            <h4>Tenth (10th)</h4>
+                            <h4>80%</h4>
+                        </div>
+                        <div class="col-6 margin-top">
+                            <p>Sri Prakash Vidyaneketan E.M school Tuni</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row background_color d-flex d-md-none">
+                    <div class="col-12 margin-top">
+                        <h4>My <span class="p">Hobbies</span></h4>
+                    </div>
+                    <br>
+                    <div class="col-12 margin-top">
+                        <img class="image" src="static/Hobbies/cricket-player/cricket-player.png">&nbsp<span>Cricket</span>
+                    </div>
+                    <br>
+                    <div class="col-12 margin-top">
+                        <img class="image" src="static/Hobbies/music-player/music-player.png">&nbsp<span>Music</span>
+                    </div>
+                    <br>
+                    <div class="col-12 margin-top">
+                        <img class="image" src="static/Hobbies/swimming/swimming.png">&nbsp<span>Swimming</span>
+                    </div>
+                    <br>
+                    <div class="col-12 margin-top">
+                        <img class="image" src="static/Hobbies/travelling/Group 350.png">&nbsp<span>Travelling</span>
+                    </div>
+                    <br>
+                    <div class="col-12 margin-top">
+                        <img class="image" src="static/Hobbies/open-book/open-book.png">&nbsp<span>Reading</span>
+                    </div>
+                </div>
+                <div class="row background_color d-none d-md-flex margin-top ">
+                    <div class="col-12 margin-top">
+                        <h4>My <span class="p">Hobbies</span></h4>
+                    </div>
+                    <div class="col-3 margin-top">
+                        <img class="image" src="static/Hobbies/cricket-player/cricket-player.png">&nbsp<span>Cricket</span>
+                    </div>
+                    <div class="col-3 margin-top">
+                        <img class="image" src="static/Hobbies/music-player/music-player.png">&nbsp<span>Music</span>
+                    </div>
+                    <div class="col-3 margin-top">
+                        <img class="image" src="static/Hobbies/travelling/Group 350.png">&nbsp<span>Travelling</span>
+                    </div>
+                    <div class="col-3 margin-top">
+                        <img class="image" src="static/Hobbies/swimming/swimming.png">&nbsp<span>Swimming</span>
+                    </div>
+                    <div class="col-4 margin-top">
+                        <img class="image" src="static/Hobbies/open-book/open-book.png">&nbsp<span>Reading</span>
+                    </div>
+                </div>
+                <div class="row d-flex d-md-none">
+                    <div class="col-12">
+                        <p>con<span class="p">tact</span></p>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-12">
+                        <h6>Venkat Ramana</h6>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-12">
+                        <h6>+91 9581275742</h6>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="col-12">
+                        <h6>venkatpatchigolla742@gmail.com</h6>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-12 color_violet">
+                        <h6>Follow Me On</h6>
+                    </div>
                 </div>
                 <br>
-                <div class="col-12 margin-top">
-                    <img class="image" src="static/Hobbies/music-player/music-player.png">&nbsp<span>Music</span>
-                </div>
-                <br>
-                <div class="col-12 margin-top">
-                    <img class="image" src="static/Hobbies/swimming/swimming.png">&nbsp<span>Swimming</span>
-                </div>
-                <br>
-                <div class="col-12 margin-top">
-                    <img class="image" src="static/Hobbies/travelling/Group 350.png">&nbsp<span>Travelling</span>
-                </div>
-                <br>
-                <div class="col-12 margin-top">
-                    <img class="image" src="static/Hobbies/open-book/open-book.png">&nbsp<span>Reading</span>
+                <div class="row d-flex d-md-none">
+                    <div class="col-3">
+                        <img src="static/social-icons/facebook.svg">
+                    </div>
+                    <div class="col-3">
+                        <img src="static/social-icons/linkedin.svg">
+                    </div>
+                    <div class="col-3">
+                        <img src="static/social-icons/instagram.svg">
+                    </div>
                 </div>
             </div>
-            <div class="col-12">
-                <p>con<span class="p">tact</span></p>
-            </div>
-            <br>
-            <br>
-            <div class="col-12">
-                <h6>Venkat Ramana</h6>
-            </div>
-            <br>
-            <br>
-            <div class="col-12">
-                <h6>+91 9581275742</h6>
-            </div>
-            <br>
-            <br>
-            <div class="col-12">
-                <h6>venkatpatchigolla742@gmail.com</h6>
-            </div>
-            <br>
-            <br>
-            <br>
-            <div class="col-12 color_violet">
-                <h6>Follow Me On</h6>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-3">
+            <div class="row d-none d-md-flex">
+                <div class="col-6">
+                    <h4>con<span class="p">tact</span></h4>
+                    <br>
+                    <p>Venkat Ramana
+                        <p>
+                            <br>
+                            <p>+91 9581275742</p>
+                            <br>
+                            <p>venkatpatchigolla742@gmail.com</p>
+                            <br>
+                </div>
+                <div class="col-6 color_violet margin-top">
+                    <h6>Follow Me On</h6>
+                    <br>
                     <img src="static/social-icons/facebook.svg">
-                </div>
-                <div class="col-3">
                     <img src="static/social-icons/linkedin.svg">
-                </div>
-                <div class="col-3">
-                    <img src="static/social-icons/pinterest.svg">
-                </div>
-                <div class="col-3">
                     <img src="static/social-icons/instagram.svg">
                 </div>
             </div>
+            <div class="col-12 background_lightblue1 d-flex d-md-none">
+                <p class="content">Work &nbsp&nbsp&nbsp&nbsp About&nbsp&nbsp&nbsp Contact</p>
+            </div>
+            <div class="row background_lightblue1 d-none d-md-flex ">
+                <div class="col-2">
+                    <img src="static/social-icons/facebook.svg">
+                </div>
+                <div class="col-2">
+                    <img src="static/social-icons/linkedin.svg">
+                </div>
+                <div class="col-2">
+                    <img src="static/social-icons/instagram.svg">
+                </div>
+                <div class="col-2 margin-top">
+                    <p>Work</p>
+                </div>
+                <div class="col-2 margin-top">
+                    <p>About</p>
+                </div>
+                <div class="col-2 margin-top">
+                    <p>Contact</p>
+                </div>
+            </div>
         </div>
-        <div class="col-12 background_lightblue1 margin-top">
-            <p class="content">Work &nbsp&nbsp&nbsp&nbsp About&nbsp&nbsp&nbsp Contact</p>
-        </div>
-
 
 
 
